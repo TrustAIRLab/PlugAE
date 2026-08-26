@@ -1,0 +1,16 @@
+# core (Stage I / Stage II / evaluation)
+torch==2.2.2
+transformers==4.39.3
+fschat==0.2.36
+accelerate==0.28.0
+numpy==1.26.4
+pandas==2.2.2
+sentencepiece==0.2.0
+protobuf==5.26.1
+tqdm==4.66.2
+
+# fine-tuning the plugged model (finetune.py)
+peft==0.10.0
+trl==0.8.4
+datasets==2.18.0
+bitsandbytes==0.43.1
